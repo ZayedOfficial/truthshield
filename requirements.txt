@@ -1,5 +1,5 @@
 # TruthShield — Minimal Requirements for Hugging Face Spaces
 gradio>=5.0
-huggingface_hub
+huggingface_hub<0.26.0
 sentencepiece
 protobuf
