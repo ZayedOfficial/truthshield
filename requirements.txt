@@ -1,17 +1,5 @@
-# TruthShield — Dependencies
-# MedGemma Impact Challenge 2026
-
-# Core
-gradio>=4.0
-transformers>=4.40
-torch>=2.1
-accelerate>=0.26
-
-# AWQ & 4-bit Quantization
-autoawq>=0.2.0
-bitsandbytes>=0.41.0
-
-# Weight management
+# TruthShield — Minimal Requirements for Hugging Face Spaces
+gradio>=5.0
 huggingface_hub
 sentencepiece
 protobuf

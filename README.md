@@ -1,3 +1,16 @@
+---
+title: TruthShield
+emoji: 🛡️
+colorFrom: green
+colorTo: blue
+sdk: gradio
+sdk_version: 5.0.0
+app_file: app.py
+python_version: 3.10
+pinned: false
+license: apache-2.0
+---
+
 # 🛡️ TruthShield — The Anonymous Honesty Layer for Medicine
 
 > **MedGemma Impact Challenge 2026 — Final Enterprise Release**
@@ -35,20 +48,11 @@ python main.py
 
 ---
 
-## 🧠 Full MedGemma Intelligence Setup
-
-To enable real-time AI inference on your local hardware:
-
-1. **Hardware**: NVIDIA GPU (6GB+ VRAM) or Apple Silicon (16GB+ RAM).
-2. **Setup**: Run `python setup_model.py --hf-token YOUR_TOKEN` to download the quantized AWQ weights.
-3. **Inference**: Launch with `python main.py --model-path ./models/medgemma-4b-awq`.
-
----
-
 ## 📁 Project Architecture
 
 ```
 truthshield/
+├── app.py               # Main Entry point for Hugging Face
 ├── main.py              # Core Engine: Gradio UI & Discrepancy Logic
 ├── prompts.py           # MedGemma clinical prompt engineering & SIMULATED_ALERTS
 ├── scenarios.py         # 12+ High-fidelity clinical demo scenarios
@@ -70,11 +74,6 @@ truthshield/
 | **Financial Fraud** | 🔴 CRITICAL | Elder exploitation preventing med adherence | "Sometimes unexpected financial stress makes it hard..." |
 | **Veteran Trauma** | 🟡 HIGH | Masked PTSD & hyper-vigilance | "Standard screens don't always capture the reality..." |
 | **Hidden Grief** | 🔴 CRITICAL | Partner loss driving med discontinuation | "How have you been feeling since your partner passed?" |
-
----
-
-## 📱 Android & Mobile Edge
-TruthShield is designed for tablet-side clinical checks. Refer to [ANDROID_BUILD.md](ANDROID_BUILD.md) for compiling MedGemma-4B via MLC-LLM for standalone mobile use.
 
 ---
 
