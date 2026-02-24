@@ -1,0 +1,41 @@
+# Models
+models/
+*.bin
+*.safetensors
+*.gguf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Gradio
+flagged/
+*.cache
+
+# Android build artifacts
+*.apk
+*.aab
+.gradle/
+local.properties
