@@ -6,7 +6,7 @@ colorTo: blue
 sdk: gradio
 sdk_version: 5.0.0
 app_file: app.py
-python_version: 3.10
+python_version: "3.10"
 pinned: false
 license: apache-2.0
 ---
@@ -14,6 +14,8 @@ license: apache-2.0
 # 🛡️ TruthShield — The Anonymous Honesty Layer for Medicine
 
 > **MedGemma Impact Challenge 2026 — Final Enterprise Release**
+
+### 🔗 [Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/ZayedRehman/truthshield)
 
 **80.9% of patients withhold medically relevant information** due to shame, fear of judgment, or clinical anxiety. TruthShield bridges this "Honesty Gap" using **MedGemma-4B Edge AI** to detect masked internal truths and provide clinicians with actionable, non-confrontational MI (Motivational Interviewing) openers.
 
